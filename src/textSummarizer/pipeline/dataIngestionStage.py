@@ -4,7 +4,7 @@ from textSummarizer.loggining.logger import loggerInstance
 
 
 def runDataIngestion():
-    config = ConfigurationManager()
-    dataIngestionConfig = config.getDataIngestionConfig()
+    configManager = ConfigurationManager()
+    dataIngestionConfig = configManager.getDataIngestionConfig()
     dataIngestionObj = DataIngestion(dataIngestionConfig)
     dataIngestionObj.run()
