@@ -12,6 +12,7 @@ listOfFiles = [
     ".github/workflows/.gitkeep",
     f"src/{projectName}/__init__.py",
     f"src/{projectName}/components/__init__.py",
+    f"src/{projectName}/components/dataIngestion.py",
     f"src/{projectName}/utils/__init__.py",
     f"src/{projectName}/utils/common.py",
     f"src/{projectName}/loggining/__init__.py",
